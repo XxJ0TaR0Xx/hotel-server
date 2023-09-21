@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_about_the_hotel_about_the_hotels",
+  "info": {
+    "displayName": "about_the_hotel",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "peculiarities": {
+      "type": "text"
+    }
+  }
+}

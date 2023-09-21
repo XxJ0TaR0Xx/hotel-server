@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hotels",
+  "info": {
+    "singularName": "hotel",
+    "pluralName": "hotels",
+    "displayName": "Hotel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "adress": {
+      "type": "text"
+    },
+    "minimal_price": {
+      "type": "integer"
+    },
+    "price_for_it": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "integer"
+    },
+    "rating_name": {
+      "type": "string"
+    },
+    "image_urls": {
+      "type": "text"
+    },
+    "about_the_hotel": {
+      "displayName": "about_the_hotel",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-the-hotel.about-the-hotel"
+    }
+  }
+}

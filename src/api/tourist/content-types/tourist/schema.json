@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tourists",
+  "info": {
+    "singularName": "tourist",
+    "pluralName": "tourists",
+    "displayName": "Tourist"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Surname": {
+      "type": "string",
+      "required": true
+    },
+    "Date_of_birth": {
+      "type": "date",
+      "required": true
+    },
+    "citizenship": {
+      "type": "string",
+      "required": true
+    },
+    "passport_number": {
+      "type": "integer",
+      "required": true
+    },
+    "Passport_validity_period": {
+      "type": "integer"
+    }
+  }
+}
